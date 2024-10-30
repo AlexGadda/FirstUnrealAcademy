@@ -19,8 +19,9 @@ void ADoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// Iscrizione all'evento
+	// Subscrive to the event
 	BoxCollider->OnComponentBeginOverlap.AddDynamic(this, &ADoor::BoxCollider_OnComponentBeginOverlap);
+	// Sto super hypato!! Ma che cazzo è sta merda di c++ boia mi taglio le vene
 	
 }
 

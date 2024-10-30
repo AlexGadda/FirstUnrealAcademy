@@ -1,6 +1,8 @@
 .vs/
 .idea/
 
+Content/Cinematics/*
+
 # Compiled Object files
 *.slo
 *.lo
