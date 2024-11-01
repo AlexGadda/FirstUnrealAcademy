@@ -51,7 +51,7 @@ void ADoor::BoxCollider_OnComponentBeginOverlap(UPrimitiveComponent* OverlappedC
 		if(bHasKey)
 		{
 			// If so, open the door
-			Door->SetRelativeRotation(FRotator(0, 90, 0));
+			OpenDoor();
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Door opened"));	
 		}
 		else
